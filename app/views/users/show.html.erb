@@ -30,10 +30,6 @@
       POSTS
     </a>
     <a class="tab" href="">
-      <i class="fa fa-tv"></i>
-      IGTV
-    </a>
-    <a class="tab" href="">
       <i class="fa fa-bookmark"></i>
       SAVED
     </a>
@@ -46,7 +42,9 @@
   <div class="user-images">
     <% @posts.each do |post|%>
       <div class="wrapper">
+        <%=link_to post_path(post) do %>
         <%=image_tag post.image %>
+        <% end %>
       </div>
     <% end %>
   </div>

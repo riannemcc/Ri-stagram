@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   end
 
   def show
-
+    @post = Post.find(params[:id])
   end
 
   def new
@@ -31,10 +31,9 @@ class PostsController < ApplicationController
   end
 
   def destroy
-
+    @post = current_user.posts.find(params[:id])
     @post.destroy
-
-    reditect_to posts_path
+    redirect_to user_path(current_user)
   end
 
   private
