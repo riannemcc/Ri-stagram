@@ -3,6 +3,12 @@
 
 This was a weekend challenge during week 8 of [Makers](https://makers.tech/).  
 
+These were the instructions:
+
+"Build Instagram: Simple huh!
+
+Your challenge is to build Instagram using Rails. You'll need users who can post pictures, write comments on pictures and like a picture. Style it like Instagram's website (or more awesome)."
+
 
 ![Imgur](https://imgur.com/KPREKUo.jpg"Instagram1")
 ![Imgur](https://imgur.com/x9SRHLW.jpg"Instagram2")
